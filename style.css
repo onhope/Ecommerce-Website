@@ -538,10 +538,10 @@ footer .copyright {
 /* Home page End */
 
 /* start Media Query */
-.section-p1 {
-  padding: 40px 40px;
-}
 @media (max-width: 799px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
   #navbar {
     display: flex;
     flex-direction: column;
