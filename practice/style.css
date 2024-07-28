@@ -80,6 +80,7 @@ body {
   width: 100%;
 }
 
+/* main page start */
 /* header start */
 #header {
   display: flex;
@@ -545,6 +546,105 @@ footer .copyright {
   text-align: center;
 }
 /* footer end */
+
+/* main page end */
+
+/* shop page start */
+/* 1. pagination start */
+#pagination {
+  text-align: center;
+}
+
+#pagination  a {
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+#pagination  a i {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* pagination end */
+/* 2. page-header start */
+#page-header {
+  background-image: url("./img/banner/b1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 14px;
+}
+
+#page-header h2,
+#page-header p {
+  color: #fff;
+}
+/* page-header end */
+/* shop page end */
+
+/* Single Product Start */
+#prodetails {
+  display: flex;
+  margin-top: 20px;
+}
+
+#prodetails .single-pro-image {
+  width: 40%;
+  margin-right: 50px;
+} 
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+  width: 50%;
+  padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4 {
+  padding: 40px 0px 20px 0px;
+}
+
+#prodetails .single-pro-details h2 {
+  font-size: 26px;
+}
+
+#prodetails .single-pro-details select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#prodetails .single-pro-details button {
+  background-color: #088178;
+  color: #fff;
+}
+
+#prodetails .single-pro-details span {
+  line-height: 25px;
+}
+/* Single Product End */
 
 /* 반응형 1. 799px 이하*/
 /* 1. header */
