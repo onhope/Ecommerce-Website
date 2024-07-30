@@ -717,7 +717,7 @@ footer .copyright {
 /* blog page end */
 
 /* about page start */
-#page-header .about-header {
+#page-header.about-header {
   background-image: url("./img/about/banner.png");
 }
 
